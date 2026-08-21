@@ -1,0 +1,39 @@
+var _left = keyboard_check(ord("A"))
+var _right = keyboard_check(ord("D"))
+
+#region movimento
+//setando teclas para movimento horizontal
+if (_left)
+{
+	x -= velh;
+}
+else if (_right)
+{
+	x += velh
+}
+
+//se sair por um lado da tela reaparece no outro lado
+if (x <= -5)
+{
+	x = 185
+}
+else if (x >= 185)
+{
+	x = -5
+}
+#endregion
+
+#region camera
+if(cam_y > y)
+{
+	cam_y = y
+}
+
+camera_set_view_pos(view_camera[0], 0, cam_y - 160);
+
+if(y > camera_get_view_y(view_camera[0]) +380)
+{
+	game_restart()
+}
+
+#endregion
