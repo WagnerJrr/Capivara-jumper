@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_acai",
+  "%Name":"obj_pontuacao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_acai",
+  "name":"obj_pontuacao",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_acai",
-    "path":"sprites/spr_acai/spr_acai.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
