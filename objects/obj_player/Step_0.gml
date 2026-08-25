@@ -30,21 +30,21 @@ if(global.ponto >= 250 and global.ponto <= 450 and som == false)
 	audio_play_sound(snd_fundo_tranquilo2, 1, 1)
 	som = true
 }
-else if(global.ponto >= 450 and global.ponto <= 550 and som == true)
+else if(global.ponto >= 450 and global.ponto <= 650 and som == true)
 {
 	gravity = 0.36
 	audio_stop_sound(snd_fundo_tranquilo2)
 	audio_play_sound(snd_fundo_tenso, 1, 1)
 	som = false
 }
-else if(global.ponto >= 550 and global.ponto <=650 and som == false)
+else if(global.ponto >= 650 and global.ponto <=800 and som == false)
 {
 	gravity = 0.37
 	audio_stop_sound(snd_fundo_tenso)
 	audio_play_sound(snd_fundo_tenso2, 1, 1)
 	som = true
 }
-else if(global.ponto >= 650 and som == true)
+else if(global.ponto >= 800 and som == true)
 {
 	gravity = 0.38
 	audio_stop_sound(snd_fundo_tenso2)
