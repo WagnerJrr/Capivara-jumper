@@ -2,6 +2,8 @@
 global.velinicio = 6;
 global.velplayer = 9;
 global.ponto = 0;
+global.pontomax = 0;
+global.acai = 0;
 
 
 #endregion
