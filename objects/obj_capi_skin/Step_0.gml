@@ -1,0 +1,1 @@
+if(global.player != spr_capi) image_alpha = .5

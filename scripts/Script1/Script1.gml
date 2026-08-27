@@ -3,7 +3,10 @@ global.velinicio = 6;
 global.velplayer = 9;
 global.ponto = 0;
 global.pontomax = 0;
-global.acai = 0;
+global.acai = 110;
+global.boto = false;
+global.capi = false;
+global.player = spr_capi
 
 
 #endregion

@@ -1,5 +1,8 @@
+sprite_index = global.player
+
 var _left = keyboard_check(ord("A"))
 var _right = keyboard_check(ord("D"))
+var _sair = keyboard_check_pressed(vk_escape)
 
 #region movimento
 //setando teclas para movimento horizontal
@@ -14,6 +17,8 @@ else if (_right)
 	image_xscale = -1
 }
 
+if(_sair) room_goto(rm_menu)
+
 //se sair por um lado da tela reaparece no outro lado
 if (x <= -5)
 {
@@ -26,17 +31,10 @@ else if (x >= 185)
 
 #endregion
 
-#region musica e velocidade
+#region vel e muisca
 
 //aumentando velocidade com o tempo
-if(global.ponto >= 250 and global.ponto <= 450 and som == false)
-{
-	gravity = 0.35
-	audio_stop_sound(snd_fundo_tranquilo)
-	audio_play_sound(snd_fundo_tranquilo2, 1, 1)
-	som = true
-}
-else if(global.ponto >= 452 and global.ponto <= 650 and som == true)
+if(global.ponto >= 250 and global.ponto <= 650 and som == true)
 {
 	gravity = 0.36
 	audio_stop_sound(snd_fundo_tranquilo2)
@@ -57,7 +55,6 @@ else if(global.ponto >= 852 and som == true)
 	audio_play_sound(snd_fundo_final, 1, 1)
 	som = false
 }
-
 #endregion
 
 #region camera
@@ -70,7 +67,7 @@ camera_set_view_pos(view_camera[0], 0, cam_y - 160);
 
 if(y > camera_get_view_y(view_camera[0]) +380)
 {
-	room_goto(rm_record)
+	room_goto(rm_pont_final)
 	audio_stop_all()
 }
 

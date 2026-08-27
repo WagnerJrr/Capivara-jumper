@@ -12,5 +12,5 @@ draw_set_halign(1);
 draw_set_valign(1);
 draw_set_font(fnt_pixel)
 draw_set_colour(c_black);
-draw_text_ext(x-2, y+6, "pontos", 15, sprite_width);
+draw_text_ext(x-2, y+8, "RECORD", 15, sprite_width);
 draw_text(x-2, y-9, string_format(pontos, 0, 0));

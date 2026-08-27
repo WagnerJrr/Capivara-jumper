@@ -1,7 +1,8 @@
-som = false
+som = true
 global.ponto = 0;
 
-if(global.ponto <= 0) audio_play_sound(snd_fundo_tranquilo, 1, 1);
+audio_stop_all()
+if(global.ponto <= 0) audio_play_sound(snd_fundo_tranquilo2, 1, 1);
 
 //velocidade h e v e gravidade
 velh = 1.5

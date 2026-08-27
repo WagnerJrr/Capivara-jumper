@@ -1,0 +1,1 @@
+if(global.player != spr_boto) image_alpha = .5
