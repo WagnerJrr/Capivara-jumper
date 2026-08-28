@@ -1,5 +1,5 @@
 audio_play_sound(snd_pickup, 0, 0)
-global.acai += 1;
+global.acai_partida += 1;
 
 if(obj_acai.image_index == 0)
 {

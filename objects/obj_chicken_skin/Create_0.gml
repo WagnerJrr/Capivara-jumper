@@ -1,0 +1,8 @@
+if(global.player == spr_chicken)
+{
+	image_alpha = 1;
+}
+else
+{
+	image_alpha = 0.5;
+}

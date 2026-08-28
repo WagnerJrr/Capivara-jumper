@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_vfx_capi",
+  "%Name":"obj_chicken_skin",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_vfx_capi",
+  "name":"obj_chicken_skin",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/objetos/player.yy",
+    "name":"skin",
+    "path":"folders/objetos/skin.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_vfx_capi",
-    "path":"sprites/spr_vfx_capi/spr_vfx_capi.yy",
+    "name":"spr_chicken",
+    "path":"sprites/spr_chicken/spr_chicken.yy",
   },
   "spriteMaskId":null,
   "visible":true,

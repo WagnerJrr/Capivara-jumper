@@ -1,0 +1,1 @@
+if(global.player != spr_chicken) image_alpha = .5

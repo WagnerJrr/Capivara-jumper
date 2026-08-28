@@ -2,7 +2,7 @@ draw_self();
 draw_set_font(fnt_pixel);
 draw_set_colour(c_black) //#E4D00A
 
-if(global.acai < 100)
+if(global.acai < 250)
 {
 	draw_set_colour(c_red)
 }

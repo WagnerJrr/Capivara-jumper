@@ -1,5 +1,6 @@
 som = true
 global.ponto = 0;
+global.acai_partida = 0;
 
 audio_stop_all()
 if(global.ponto <= 0) audio_play_sound(snd_fundo_tranquilo2, 1, 1);

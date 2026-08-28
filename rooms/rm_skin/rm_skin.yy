@@ -9,6 +9,8 @@
     {"name":"inst_6F2F2F8_1","path":"rooms/rm_skin/rm_skin.yy",},
     {"name":"inst_13FDB983","path":"rooms/rm_skin/rm_skin.yy",},
     {"name":"inst_122E112F","path":"rooms/rm_skin/rm_skin.yy",},
+    {"name":"inst_60083588","path":"rooms/rm_skin/rm_skin.yy",},
+    {"name":"inst_34CDB2D1","path":"rooms/rm_skin/rm_skin.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +18,8 @@
         {"$GMRInstance":"v4","%Name":"inst_6F2F2F8_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F2F2F8_1","objectId":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":164.0,"y":302.0,},
         {"$GMRInstance":"v4","%Name":"inst_13FDB983","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13FDB983","objectId":{"name":"obj_boto_skin","path":"objects/obj_boto_skin/obj_boto_skin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.7972972,"scaleY":1.7972972,"x":51.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_122E112F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_122E112F","objectId":{"name":"obj_capi_skin","path":"objects/obj_capi_skin/obj_capi_skin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9892166,"scaleY":1.9892166,"x":128.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_60083588","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60083588","objectId":{"name":"obj_taman_skin","path":"objects/obj_taman_skin/obj_taman_skin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.2777774,"scaleY":2.2777774,"x":51.22222,"y":151.0,},
+        {"$GMRInstance":"v4","%Name":"inst_34CDB2D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34CDB2D1","objectId":{"name":"obj_chicken_skin","path":"objects/obj_chicken_skin/obj_chicken_skin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9892166,"scaleY":1.9892166,"x":129.84903,"y":149.82747,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5E5F2067_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5E5F2067_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":2.65625,"scaleY":3.015625,"spriteId":{"name":"spr_loja_fundo","path":"sprites/spr_loja_fundo/spr_loja_fundo.yy",},"x":5.0,"y":6.0,},

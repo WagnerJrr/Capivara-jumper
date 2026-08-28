@@ -4,3 +4,4 @@ if(global.boto == true)
 	image_alpha = 1;
 }
 
+

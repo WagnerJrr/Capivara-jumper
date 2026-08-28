@@ -1,11 +1,20 @@
 #region variaveis globais
+
+//var de controle de velocidade
 global.velinicio = 6;
 global.velplayer = 9;
+
+//pontos
 global.ponto = 0;
 global.pontomax = 0;
-global.acai = 110;
+global.acai = 0;
+global.acai_partida = 0;
+
+//player
 global.boto = false;
 global.capi = false;
+global.taman = false;
+global.chicken = true;
 global.player = spr_capi
 
 
@@ -17,7 +26,7 @@ function colisao_pulo()
 	if (vspeed > 0)
 	{
 		vspeed = -global.velplayer;
-		instance_create_layer(x, y, layer, obj_vfx_capi);
+		instance_create_layer(x, y, layer, obj_vfx_player);
 		
 		//aumenta o ponto a cada pulo
 		global.ponto += 1

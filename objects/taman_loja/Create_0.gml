@@ -1,12 +1,12 @@
 lock = true
-status = 250
+status = "350"
 
-//se o boto tiver sido comprado ira aparecer sem transparencia e sem preço
-if(global.boto) 
+//se o taman tiver sido comprado ira aparecer sem transparencia e sem preço
+if(global.taman) 
 {
 	image_alpha = 1;
 	lock = false
-	status = ("--")
+	status = "--"
 } 
 else
 {

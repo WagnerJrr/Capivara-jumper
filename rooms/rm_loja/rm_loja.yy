@@ -8,12 +8,16 @@
   "instanceCreationOrder":[
     {"name":"inst_6F2F2F8","path":"rooms/rm_loja/rm_loja.yy",},
     {"name":"inst_11371A27","path":"rooms/rm_loja/rm_loja.yy",},
+    {"name":"inst_6711D4B9","path":"rooms/rm_loja/rm_loja.yy",},
+    {"name":"inst_27EB6741","path":"rooms/rm_loja/rm_loja.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6F2F2F8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F2F2F8","objectId":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":164.0,"y":302.0,},
         {"$GMRInstance":"v4","%Name":"inst_11371A27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11371A27","objectId":{"name":"boto_loja","path":"objects/boto_loja/boto_loja.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.7972972,"scaleY":1.7972972,"x":47.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6711D4B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6711D4B9","objectId":{"name":"taman_loja","path":"objects/taman_loja/taman_loja.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.2777774,"scaleY":2.2777774,"x":131.22221,"y":65.99999,},
+        {"$GMRInstance":"v4","%Name":"inst_27EB6741","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27EB6741","objectId":{"name":"obj_dinheiro","path":"objects/obj_dinheiro/obj_dinheiro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10.0,"y":206.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5E5F2067","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5E5F2067","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":2.65625,"scaleY":3.015625,"spriteId":{"name":"spr_loja_fundo","path":"sprites/spr_loja_fundo/spr_loja_fundo.yy",},"x":5.0,"y":6.0,},
